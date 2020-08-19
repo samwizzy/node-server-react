@@ -1,0 +1,17 @@
+extends layout
+
+block header
+  ul
+    li 
+      a(class='button', href='#') Home
+    li 
+      a(class='button', href='#') About
+    li 
+      a(class='button', href='#') Services  
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+block footer
+  p Copyright 2020. Author: Sam Okeke  
